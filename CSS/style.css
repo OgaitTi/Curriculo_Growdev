@@ -1,0 +1,211 @@
+* {
+  padding: 0;
+  margin: 0;
+ 
+}
+body{
+  overflow: hidden;
+}
+header {
+  height: 100vh;
+  
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: blue;
+
+}
+
+nav li{
+  display: inline-block;
+  
+}
+
+.container {
+  display: flex;
+}
+
+#border {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  background-color: #030758;
+  border: solid 1px;
+  width: 270px;
+  height: 100vh;
+}
+
+.content-border {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+#img {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+  margin-top: 50px;
+  background-size: cover;
+}
+/*Textos*/
+.palavras {
+  font-family: Verdana, Arial, Tahoma, Serif;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #fff;
+}
+
+#sobre {
+  padding: 30px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+#conhecimentos {
+  padding: 10px;
+  font-size: 2rem;
+}
+
+#objetivos {
+  padding: 30px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+#nome {
+  font-size: 5rem;
+  align-self: left;
+  justify-self: center;
+  margin-top: 140px;
+  margin-left: 35px;
+}
+.address{
+  margin-top: 50px;
+  margin-left: 50px;
+  font-size: 2rem;
+}
+
+.email {
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 2rem;
+
+}
+
+.curso {
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 2rem;
+}
+
+.descrição {
+  margin-top: 20px;
+  margin-left: 50px;
+  font-size: 1.5rem;
+}
+
+/**/
+
+/*icones*/
+
+
+.iconlinkedin {
+  width: 50px;
+  height: 60px;
+  margin-left: 43px;
+  margin-top: 50px;
+ 
+}
+.icongit {
+  width: 50px;
+  height: 60px;
+  margin-left: 70px;
+}
+/**/
+
+.personal-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+
+
+@media (max-width: 720px) {
+  #border {
+    width: 190px;
+  }
+  #img {
+    width: 120px;
+    height: 120px;
+  }
+  .personal-info {
+    font-size: 0.75rem;
+  }
+  #nome {
+    font-size: 2rem;
+  }
+}
+
+/* conhecimentos */
+/* icones */
+ul{
+  list-style: none;
+}
+
+
+.js {
+  width: 50px;
+  height: 60px;
+  margin-left: 70px;
+}
+
+.php {
+  width: 60px;
+  height: 60px;
+  margin-left: 70px;
+}
+/*  */
+
+/* experiencia */
+.exp {
+  margin-top: 40px;
+  margin-left: 40px;
+  font-size: 2rem;
+
+}
+/*  */
+
+.ss {
+  margin-top: 40px;
+  margin-left: 60px;
+  font-size: 1.5rem;
+}
+
+.vendas {
+  margin-top: 40px;
+  margin-left: 60px;
+  font-size: 1.5rem;
+}
+/*  */
+/* objetivos */
+
+#objetivo {
+  text-align: center;
+  font-size: 5rem;
+  margin-top: 140px;
+  margin-left: 35px;
+}
+.text {
+  margin-top: 40px;
+  margin-left: 30px;
+  text-align: center;
+  font-size: 1.5rem;
+}
